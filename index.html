@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/slick/slick.css">
+    <link rel="stylesheet" href="dist/slick/slick-theme.css">
+
+    <title>VNDA</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <ul class="pt-sans">
+                <li class="font-12">Outono está chegando...</li>
+                <li class="font-16"><a href="#">TODAS AS NOVIDADES AQUI</a></li>
+                <li class="font-12 header-text"><a href="#">Novidades para o resto</a></li>
+                <li class="font-12 header-text"><a href="#">Novidades para o corpo</a></li>
+            </ul>
+        </div>
+        <div class="header-middle">
+            <div class="search">
+                <label for="search">
+                    <svg class="svg-icon font-18" viewBox="0 0 20 20">
+                        <path fill="none" d="M19.129,18.164l-4.518-4.52c1.152-1.373,1.852-3.143,1.852-5.077c0-4.361-3.535-7.896-7.896-7.896
+                        c-4.361,0-7.896,3.535-7.896,7.896s3.535,7.896,7.896,7.896c1.934,0,3.705-0.698,5.078-1.853l4.52,4.519
+                        c0.266,0.268,0.699,0.268,0.965,0C19.396,18.863,19.396,18.431,19.129,18.164z M8.567,15.028c-3.568,0-6.461-2.893-6.461-6.461
+                        s2.893-6.461,6.461-6.461c3.568,0,6.46,2.893,6.46,6.461S12.135,15.028,8.567,15.028z"></path>
+                    </svg>
+                </label>
+                <input class="font-12" type="search" name="search" id="search" placeholder="Busca">
+            </div>
+            <a class="login font-12 pt-sans" id="login" href="#">
+                Login / Minha conta
+                <span>
+                    <svg class="svg-icon font-20" viewBox="0 0 20 20">
+                        <path fill="none" d="M17.696,9.368H2.305c-0.189,0-0.367,0.092-0.478,0.245c-0.11,0.155-0.141,0.352-0.08,0.532l2.334,6.918c0.081,0.238,0.305,0.4,0.556,0.4h10.735c0.253,0,0.478-0.162,0.557-0.402l2.323-6.917c0.062-0.179,0.03-0.376-0.079-0.531C18.062,9.459,17.886,9.368,17.696,9.368z M14.95,16.287H5.062l-1.938-5.743h13.753L14.95,16.287z"></path>
+                        <path fill="none" d="M6.345,7.369c0.325,0,0.588-0.263,0.588-0.588c0-1.691,1.376-3.067,3.067-3.067c1.691,0,3.067,1.376,3.067,3.067c0,0.325,0.264,0.588,0.588,0.588c0.326,0,0.589-0.263,0.589-0.588c0-2.34-1.904-4.243-4.244-4.243c-2.34,0-4.244,1.903-4.244,4.243C5.757,7.106,6.02,7.369,6.345,7.369z"></path>
+                    </svg>
+                </span>
+            </a>
+            <h1 class="title font-32 pt-sans">Vnda</h1>
+        </div>
+        <nav>
+            <ul class="pt-sans">
+                <li><a href="#" class="font-16">Novidades!</a></li>
+                <li><a href="#" class="active font-16">Perfumaria</a></li>
+                <li><a href="#" class="font-16">Rosto</a></li>
+                <li><a href="#" class="font-16">Corpo e Banho</a></li>
+                <li><a href="#" class="font-16">Home</a></li>
+                <li><a href="#" class="font-16">Naturais & Orgânicos</a></li>
+                <li><a href="#" class="font-16">Presentes</a></li>
+                <li><a href="#" class="font-16">Promoções</a></li>
+                <li><a href="#" class="font-16">Linhas</a></li>
+            </ul>
+        </nav>
+
+        <!-- Add class 'hide-menu' for to remove this hamburger menu -->
+        <div class="entire-menu">
+            <input type="checkbox" id="change-hamburguer" />
+            <button id="hamburger" class="hamburguer">
+              <span></span>
+              <label for="change-hamburguer"></label>
+            </button>
+            <div class="menu pt-sans">
+                    <h2 class="title font-48">VNDA</h2>
+                    <a href="#" class="font-24">Novidades!</a>
+                    <a href="#" class="active font-24">Perfumaria</a>
+                    <a href="#" class="font-24">Rosto</a>
+                    <a href="#" class="font-24">Corpo e Banho</a>
+                    <a href="#" class="font-24">Home</a>
+                    <a href="#" class="font-24">Naturais & Orgânicos</a>
+                    <a href="#" class="font-24">Presentes</a>
+                    <a href="#" class="font-24">Promoções</a>
+                    <a href="#" class="font-24">Linhas</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="main-content">
+        <div class="banner">
+            <div><img src="https://i.picsum.photos/id/1048/1500/600.jpg" alt="Description"></div>
+            <div><img src="https://i.picsum.photos/id/1048/1500/600.jpg" alt="Description"></div>
+            <div><img src="https://i.picsum.photos/id/1048/1500/600.jpg" alt="Description"></div>
+        </div>
+        
+        <section class="item-1 pt-sans">
+            <h3 class="font-24">Destaques da semana</h3>
+            <ul class="subitem-1"> 
+                <li>
+                    <img alt="Description">
+                    <button class="buy">Comprar</button>
+                    <h4 class="font-16">Every Day Shampoo</h4>
+                    <span class="font-16">$28,00</span>
+                    <span class="font-12">OU XX de R$ xx,xx</span>
+                    
+                </li>
+                <li>
+                    <img alt="Description">
+                    <button class="buy">Comprar</button>
+                    <h4 class="font-16">Supernatural Conditioner</h4>
+                    <span class="font-16">$28,00</span>
+                    <span class="font-12">OU XX de R$ xx,xx</span>
+                </li>
+                <li>
+                    <img alt="Description">
+                    <button class="buy">Comprar</button>
+                    <h4 class="font-16">Pure Dry Shampoo</h4>
+                    <span class="font-16">$22,00</span>
+                    <span class="font-12">OU XX de R$ xx,xx</span>
+                </li>
+            </ul>
+        </section>
+        <section class="item-2">
+            <img src="https://i.picsum.photos/id/1047/1500/600.jpg" alt="Description">
+        </section>
+        <section class="item-3 playfair">
+            <ul class="subitem-3">
+                <li>
+                    <a href="#">
+                        <img src="https://picsum.photos/350" alt="Description">
+                        <div class="tag">
+                            <span class="font-14">PLAYA</span>
+                            <p>Nightly Ritual: Playa x Sunday Riley x Lunya</p>
+                        </div>
+                    </a>
+                </li><!--
+                --><li>
+                    <a href="#">
+                        <img src="https://picsum.photos/350" alt="Description">
+                        <div class="tag">
+                            <span class="font-14">PLAYA</span>
+                            <p>Get Real: The Difference Between Organic and Natural Beauty Products.</p>
+                        </div>
+                    </a>
+                </li><!--
+                --><li>
+                    <a href="#">
+                        <img src="https://picsum.photos/350" alt="Description">
+                        <div class="tag">
+                            <span class="font-14">AMBASSADORS</span>
+                            <p>Kristen Shaw, Owner of Cabin Salon, Venice</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="item-4">
+            <img src="https://i.picsum.photos/id/1047/1500/300.jpg" alt="Description">
+            <button class="font-14 pt-sans"># INSTAGRAM</button>
+        </section>
+    </div>
+    <footer class="pt-sans">
+        <div class="footer-top">
+            <div class="subitem-footer">
+                <h4 class="font-16">Stay in the Know</h4>
+                <p>sign up for emails to get the scoop on new arrivals, special sales and more</p>
+            </div>
+            <form>
+                <label for="newsletter-email" class="font-14">EMAIL ADDRESS</label>
+                <input class="font-16" id="newsletter-email" type="email"><!--
+                --><button type="submit" class="font-16">SUBMIT</button>
+            </form>
+        </div>
+        <div class="footer-middle">
+            <div class="footer-middle-left">
+                <a href="#">
+                    <span>
+                        <svg class="svg-icon font-28" viewBox="0 0 20 20">
+                            <path fill="none" d="M19.291,3.026c0.002-0.15-0.053-0.301-0.167-0.415c-0.122-0.122-0.286-0.172-0.444-0.161H1.196
+                            c-0.16-0.011-0.322,0.039-0.444,0.161C0.637,2.725,0.583,2.875,0.585,3.026c0,0.003-0.002,0.006-0.002,0.009v14.032
+                            c0,0.322,0.262,0.584,0.585,0.584h17.54c0.322,0,0.584-0.262,0.584-0.584V3.035C19.292,3.032,19.291,3.029,19.291,3.026z
+                            M17.147,3.619l-7.21,6.251L2.728,3.619H17.147z M18.122,15.896c0,0.323-0.261,0.584-0.584,0.584H2.337
+                            c-0.323,0-0.585-0.261-0.585-0.584V4.292l7.732,6.704c0.013,0.017,0.019,0.035,0.034,0.052c0.115,0.114,0.268,0.169,0.419,0.166
+                            c0.151,0.003,0.304-0.052,0.419-0.166c0.015-0.017,0.021-0.035,0.034-0.052l7.731-6.704V15.896z"></path>
+                        </svg>
+                    </span>
+                    fale com a gente
+                </a><!--
+                --><a href="#">
+                    <span class="pin">
+                        <svg class="svg-icon font-32" viewBox="0 0 20 20">
+                            <path fill="none" d="M10.292,4.229c-1.487,0-2.691,1.205-2.691,2.691s1.205,2.691,2.691,2.691s2.69-1.205,2.69-2.691
+                            S11.779,4.229,10.292,4.229z M10.292,8.535c-0.892,0-1.615-0.723-1.615-1.615S9.4,5.306,10.292,5.306
+                            c0.891,0,1.614,0.722,1.614,1.614S11.184,8.535,10.292,8.535z M10.292,1C6.725,1,3.834,3.892,3.834,7.458
+                            c0,3.567,6.458,10.764,6.458,10.764s6.458-7.196,6.458-10.764C16.75,3.892,13.859,1,10.292,1z M4.91,7.525
+                            c0-3.009,2.41-5.449,5.382-5.449c2.971,0,5.381,2.44,5.381,5.449s-5.381,9.082-5.381,9.082S4.91,10.535,4.91,7.525z"></path>
+                        </svg>
+                    </span>
+                    encontre um consultor
+                </a>
+            </div>
+
+            <div class="footer-middle-center">
+                <ul>
+                    <li class="font-16"><a href="#">Ajuda</a></li>
+                    <li class="font-14"><a href="#">track your order</a></li>
+                    <li class="font-14"><a href="#">returns</a></li>
+                    <li class="font-14"><a href="#">shipping</a></li>
+                    <li class="font-14"><a href="#">costumer service</a></li>
+                </ul>
+                <ul>
+                    <li class="font-16"><a href="#">Sobre Nós</a></li>
+                    <li class="font-14"><a href="#">our story</a></li>
+                    <li class="font-14"><a href="#">events</a></li>
+                    <li class="font-14"><a href="#">brands </a></li>
+                </ul>
+                <ul>
+                    <li class="font-16"><a href="#">Services</a></li>
+                    <li class="font-14"><a href="#">anthroperks</a></li>
+                    <li class="font-14"><a href="#">gift cards</a></li>
+                    <li class="font-14"><a href="#">to the trade</a></li>
+                    <li class="font-14"><a href="#">furniture guide</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-middle-right">
+                <p class="font-16">Follow Us</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <svg class="svg-icon font-28" viewBox="0 0 20 20">
+                                <path fill="none" d="M11.44,8.267c0.358,0,0.672-0.311,0.672-0.311v0.267h0.537V5.687h-0.537v1.958c0,0-0.18,0.222-0.358,0.222s-0.179-0.133-0.179-0.133V5.687h-0.537v2.225C11.038,7.912,11.082,8.267,11.44,8.267 M9.65,8.267H9.83c0.396,0,0.716-0.318,0.716-0.711V6.399c0-0.393-0.32-0.712-0.716-0.712H9.65c-0.395,0-0.715,0.319-0.715,0.712v1.156C8.935,7.949,9.255,8.267,9.65,8.267 M9.472,6.355c0-0.147,0.121-0.267,0.269-0.267c0.148,0,0.269,0.12,0.269,0.267V7.6c0,0.147-0.12,0.267-0.269,0.267c-0.148,0-0.269-0.12-0.269-0.267V6.355z M7.547,8.223h0.627V6.844L8.89,4.887H8.309l-0.448,1.29l-0.448-1.29H6.787l0.76,1.957V8.223z M17.829,0.5H2.232C1.275,0.5,0.5,1.276,0.5,2.233V17.83c0,0.957,0.776,1.732,1.733,1.732h15.597c0.957,0,1.733-0.775,1.733-1.732V2.233C19.562,1.276,18.786,0.5,17.829,0.5 M18.696,17.83c0,0.479-0.389,0.866-0.867,0.866H2.232c-0.478,0-0.867-0.388-0.867-0.866V2.233c0-0.478,0.389-0.867,0.867-0.867h15.597c0.479,0,0.867,0.389,0.867,0.867V17.83zM11.082,11.17c-0.116,0-0.207,0.068-0.268,0.135V13.1c0.056,0.06,0.142,0.118,0.268,0.118c0.269,0,0.269-0.298,0.269-0.298v-1.451C11.351,11.469,11.307,11.17,11.082,11.17 M13.32,8.823c0,0-1.642-0.085-3.289-0.085c-1.641,0-3.289,0.085-3.289,0.085c-0.741,0-1.343,0.573-1.343,1.28c0,0-0.134,0.83-0.134,1.664c0,0.831,0.134,1.665,0.134,1.665c0,0.707,0.602,1.28,1.343,1.28c0,0,1.617,0.085,3.289,0.085c1.615,0,3.289-0.085,3.289-0.085c0.741,0,1.343-0.573,1.343-1.28c0,0,0.134-0.841,0.134-1.665c0-0.84-0.134-1.664-0.134-1.664C14.663,9.396,14.062,8.823,13.32,8.823 M8.085,10.273H7.413v3.372H6.787v-3.372H6.116V9.719h1.969V10.273z M9.785,13.646H9.248v-0.257c0,0-0.313,0.299-0.671,0.299c-0.358,0-0.402-0.342-0.402-0.342V10.7h0.537v2.476c0,0,0,0.128,0.179,0.128c0.179,0,0.358-0.214,0.358-0.214V10.7h0.537V13.646z M11.889,13.005c0,0,0,0.683-0.493,0.683c-0.301,0-0.484-0.16-0.582-0.283v0.241h-0.581V9.719h0.581v1.273c0.089-0.094,0.308-0.292,0.582-0.292c0.358,0,0.493,0.299,0.493,0.683V13.005z M13.991,11.426v0.854h-1.118v0.641c0,0,0,0.298,0.269,0.298s0.269-0.298,0.269-0.298v-0.3h0.581v0.47c0,0-0.089,0.598-0.806,0.598c-0.716,0-0.85-0.598-0.85-0.598v-1.664c0,0,0-0.726,0.85-0.726C14.036,10.7,13.991,11.426,13.991,11.426 M13.142,11.17c-0.269,0-0.269,0.299-0.269,0.299v0.384h0.537v-0.384C13.41,11.469,13.41,11.17,13.142,11.17"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="svg-icon font-28" viewBox="0 0 20 20">
+                                <path fill="none" d="M9.969,0.594c-5.195,0-9.406,4.211-9.406,9.406c0,5.195,4.211,9.406,9.406,9.406c5.195,0,9.406-4.211,9.406-9.406C19.375,4.805,15.164,0.594,9.969,0.594 M9.969,18.552c-4.723,0-8.551-3.829-8.551-8.552s3.829-8.551,8.551-8.551S18.521,5.277,18.521,10S14.691,18.552,9.969,18.552 M12.534,5.724H7.403c-0.944,0-1.71,0.766-1.71,1.71v5.131c0,0.944,0.766,1.71,1.71,1.71h5.131c0.944,0,1.71-0.766,1.71-1.71V7.435C14.244,6.49,13.479,5.724,12.534,5.724M11.679,7.007h1.283V8.29h-1.283V7.007z M9.969,8.29c0.944,0,1.71,0.766,1.71,1.71s-0.766,1.71-1.71,1.71s-1.71-0.766-1.71-1.71S9.024,8.29,9.969,8.29 M13.39,12.565c0,0.472-0.384,0.854-0.855,0.854H7.403c-0.472,0-0.855-0.383-0.855-0.854V9.573h0.898C7.423,9.712,7.403,9.854,7.403,10c0,1.417,1.149,2.565,2.565,2.565c1.416,0,2.565-1.148,2.565-2.565c0-0.146-0.02-0.288-0.043-0.427h0.898V12.565z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="svg-icon font-28" viewBox="0 0 20 20">
+                                <path fill="none" d="M10,0.5c-5.247,0-9.5,4.253-9.5,9.5c0,5.247,4.253,9.5,9.5,9.5c5.247,0,9.5-4.253,9.5-9.5C19.5,4.753,15.247,0.5,10,0.5 M10,18.637c-4.77,0-8.636-3.867-8.636-8.637S5.23,1.364,10,1.364S18.637,5.23,18.637,10S14.77,18.637,10,18.637 M10.858,7.949c0-0.349,0.036-0.536,0.573-0.536h0.719v-1.3H11c-1.38,0-1.866,0.65-1.866,1.743v0.845h-0.86V10h0.86v3.887h1.723V10h1.149l0.152-1.299h-1.302L10.858,7.949z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="svg-icon font-28" viewBox="0 0 20 20">
+                                <path fill="none" d="M9.89,6.182C9.708,6.205,9.528,6.227,9.348,6.25c-0.34,0.084-0.711,0.164-0.986,0.325C7.628,7.004,7.119,7.505,6.779,8.32C6.723,8.452,6.722,8.58,6.681,8.726c-0.261,0.95,0.202,1.934,0.764,2.273c0.108,0.065,0.354,0.182,0.445,0.026c0.05-0.084,0.039-0.198,0.069-0.297c0.02-0.066,0.084-0.189,0.069-0.271c-0.025-0.139-0.174-0.227-0.236-0.338c-0.127-0.227-0.133-0.427-0.195-0.73c0.005-0.041,0.009-0.082,0.014-0.122c0.019-0.34,0.076-0.584,0.181-0.826c0.307-0.708,0.8-1.103,1.597-1.339c0.178-0.054,0.682-0.138,0.945-0.082c0.158,0.027,0.314,0.054,0.472,0.082c0.571,0.179,0.986,0.511,1.208,1.028c0.139,0.322,0.18,0.939,0.083,1.353C12.052,9.679,12.06,9.847,12,10.024c-0.216,0.657-0.532,1.266-1.25,1.435c-0.473,0.112-0.828-0.177-0.945-0.474c-0.032-0.082-0.087-0.229-0.055-0.365c0.125-0.533,0.306-1.011,0.445-1.543c0.132-0.507-0.119-0.907-0.514-1.001c-0.491-0.117-0.871,0.338-1,0.635C8.578,8.949,8.516,9.385,8.598,9.7c0.026,0.1,0.146,0.367,0.125,0.46c-0.094,0.411-0.202,0.854-0.319,1.259c-0.122,0.42-0.188,0.852-0.306,1.258C8.043,12.863,8.046,13.063,8,13.259v0.284c-0.041,0.18-0.01,0.499,0.028,0.676c0.025,0.114-0.014,0.255,0.042,0.339c0,0.061,0.008,0.074,0.027,0.108c0.174-0.005,0.414-0.462,0.5-0.595c0.166-0.255,0.319-0.527,0.445-0.826c0.114-0.268,0.131-0.565,0.222-0.853c0.065-0.207,0.158-0.448,0.18-0.676h0.014C9.495,11.841,9.625,11.931,9.723,12c0.306,0.218,0.832,0.42,1.402,0.285c0.646-0.153,1.161-0.456,1.501-0.907c0.249-0.332,0.438-0.715,0.583-1.15c0.071-0.213,0.086-0.45,0.14-0.676c0.131-0.568-0.045-1.251-0.209-1.624C12.641,6.8,11.581,6.158,9.89,6.182 M17.636,0.667H2.364c-0.938,0-1.697,0.76-1.697,1.697v15.272c0,0.938,0.76,1.697,1.697,1.697h15.272c0.938,0,1.697-0.76,1.697-1.697V2.364C19.333,1.426,18.573,0.667,17.636,0.667M18.484,17.636c0,0.469-0.38,0.849-0.849,0.849H2.364c-0.469,0-0.849-0.38-0.849-0.849V2.364c0-0.469,0.38-0.849,0.849-0.849h15.272c0.469,0,0.849,0.38,0.849,0.849V17.636z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="footer-bottom">
+            <li><a href="#">Privacy Policy</a></li>
+            <li>|</li>
+            <li><a href="#">Terms of Use</a></li>
+            <li>|</li>
+            <li><a href="#">Accessibility</a></li>
+            <li>|</li>
+            <li><a href="#">URBN.com</a></li>
+        </ul>
+    </footer>
+    <script type="text/javascript" src="dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/slick/slick.min.js"></script>
+    <script type="text/javascript" src="src/js/banner.js"></script>
+    <script type="text/javascript" src="src/js/menu.js"></script>
+</body>
+</html>

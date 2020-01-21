@@ -1,0 +1,18 @@
+.item-4 {
+    margin-top: 50px;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    button {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-color: rgba(246, 246, 246, 0.7);
+        height: 60px;
+        width: 250px;
+        transform: translate(-50%, -50%);
+    }
+}

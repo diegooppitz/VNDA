@@ -1,0 +1,12 @@
+{
+  "name": "vnda",
+  "version": "1.0.0",
+  "description": "Test VNDA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/scss -o dist/css"
+  },
+  "author": "Diego Oppitz",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+// Geral
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    a {
+        text-decoration: none; 
+    }
+}
+
+@mixin text-center {
+    text-align: center;
+}

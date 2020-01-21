@@ -1,0 +1,115 @@
+.item-1 {
+    margin-top: 50px;
+
+    h3 {
+        @include text-center;
+
+        padding-bottom: 15px;
+        margin: 0 auto 20px auto;
+        width: 90%;
+        border-bottom: 1px solid $color-7;
+    }
+    .subitem-1 {
+        width: 70%;
+        padding: 40px 0 10px 0;
+        margin: 0 auto;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: $color-0;
+
+        @media screen and (max-width: 1024px) {
+            width: 80%;
+        }
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+        .buy {
+            width: 220px;
+            height: 40px;
+            border-radius: 3px;
+            bottom: 105px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: none;
+            position: absolute;
+            background-color: $color-0; 
+
+            @media screen and (min-width: 1024px) {
+                visibility: hidden;
+                opacity: 0;
+                transition: visibility 0s, opacity 0.5s linear;
+                bottom: 90px;
+            }
+        }
+
+        li {
+            display: inline-block;
+            padding: 0 5px;
+            position: relative;
+
+            @media screen and (max-width: 768px) {
+                display: block;
+            }
+
+            img {
+                background-image: url('https://via.placeholder.com/250');
+                height: 250px;
+                width: 250px;
+
+                @media screen and (min-width: 1024px) {
+                    background-image: url('https://picsum.photos/250');
+                    transition: all 0.5s linear;
+                }
+
+                // &:hover {
+                //     @media screen and (min-width: 1024px) {
+                //         background-image: url('https://via.placeholder.com/250');
+                //     }
+                // }
+            } 
+
+            h4 {
+                @media screen and (max-width: 768px) {
+                    margin: 10px 0 20px 0;
+                }
+            }
+
+            &:hover {
+                img {
+                    @media screen and (min-width: 1024px) {
+                        background-image: url('https://via.placeholder.com/250');
+                    }
+                }
+
+                .buy {
+                    @media screen and (min-width: 1024px) {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        span {
+            display: block;
+
+            &.font-16 {
+                margin-bottom: 10px;
+
+                @media screen and (max-width: 768px) {
+                    margin-bottom: 5px;
+                }
+            }
+
+            &.font-12 {
+                margin-bottom: 10px;
+            }
+
+            &:first-of-type {
+                color: $color-5;
+            }
+        }
+    }
+}

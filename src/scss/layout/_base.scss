@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $color-1;
+}
+
+a {
+  color: $color-3;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: $color-6;
+}
+
+.svg-icon circle {
+  stroke: $color-6;
+  stroke-width: 1;
+}

@@ -1,0 +1,14 @@
+// Utils
+@import "utils/colors";
+@import "utils/mixins";
+@import "utils/variables";
+
+// Layout
+@import "layout/base";
+@import "layout/fonts";
+ 
+// Partials
+@import "components/main-content"; 
+@import "components/menu-mobile"; 
+@import "components/header"; 
+@import "components/footer"; 

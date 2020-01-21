@@ -1,0 +1,11 @@
+.item-2 {
+    margin-top: 80px;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 50px;
+    }
+
+    img {
+        width: 100%;
+    }
+}

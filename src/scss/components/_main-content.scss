@@ -1,0 +1,21 @@
+.main-content {
+    margin-left: 5px;
+    margin-right: 5px;
+
+    @media screen and (max-width: 768px) {
+        margin: 0;
+    }
+
+    .banner {
+        margin-top: 15px;
+        width: 100%;
+        padding-top: 5px;
+        border-top: 1px solid $color-7;
+    }
+}
+
+// Sections Call
+@import "sections/item-1"; 
+@import "sections/item-2"; 
+@import "sections/item-3"; 
+@import "sections/item-4";  
