@@ -6,13 +6,10 @@ document.getElementById("hamburger").onclick = function() {
         BD.style.overflowY = "scroll"
 
         menuOpen = false
-
-        console.log(menuOpen)
     }
     else {
         BD.style.overflowY = "hidden"
 
-        menuOpen = true
-        console.log(menuOpen)
+        menuOpen = tru
     }
 };

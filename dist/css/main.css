@@ -120,24 +120,29 @@ SVG Icons - svgicons.sparkk.fr
       @media screen and (max-width: 768px) {
         .item-1 .subitem-1 li {
           display: block; } }
-      .item-1 .subitem-1 li img {
+      .item-1 .subitem-1 li .desk-img {
         background-image: url("https://via.placeholder.com/250");
+        transition: all 0.5s linear;
         height: 250px;
         width: 250px; }
-        @media screen and (min-width: 1024px) {
-          .item-1 .subitem-1 li img {
-            background-image: url("https://picsum.photos/250");
-            transition: all 0.5s linear; } }
-      @media screen and (max-width: 768px) {
-        .item-1 .subitem-1 li h4 {
-          margin: 10px 0 20px 0; } }
-      @media screen and (min-width: 1024px) {
-        .item-1 .subitem-1 li:hover img {
-          background-image: url("https://via.placeholder.com/250"); } }
-      @media screen and (min-width: 1024px) {
+        @media screen and (max-width: 1023px) {
+          .item-1 .subitem-1 li .desk-img {
+            display: none; } }
+      .item-1 .subitem-1 li h4 {
+        margin-top: 10px; }
+        @media screen and (max-width: 768px) {
+          .item-1 .subitem-1 li h4 {
+            margin: 10px 0 20px 0; } }
+      @media screen and (min-width: 1023px) {
+        .item-1 .subitem-1 li:hover .desk-img {
+          background-image: url("https://picsum.photos/250"); } }
+      @media screen and (min-width: 1023px) {
         .item-1 .subitem-1 li:hover .buy {
           visibility: visible;
           opacity: 1; } }
+      @media screen and (min-width: 1023px) {
+        .item-1 .subitem-1 li .img-mobile {
+          display: none; } }
     .item-1 .subitem-1 span {
       display: block; }
       .item-1 .subitem-1 span.font-16 {
@@ -232,8 +237,6 @@ SVG Icons - svgicons.sparkk.fr
   @media screen and (min-width: 768px) {
     .entire-menu {
       display: none; } }
-  .entire-menu.hide-menu {
-    display: none; }
 
 .hamburguer {
   width: 20px;
@@ -614,6 +617,9 @@ footer {
       margin-left: initial; } }
   .footer-middle-right p {
     margin-top: 0; }
+    @media screen and (max-width: 768px) {
+      .footer-middle-right p {
+        margin-bottom: 10px; } }
   .footer-middle-right ul {
     margin: 0;
     padding: 0;

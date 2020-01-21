@@ -53,41 +53,43 @@
                 display: block;
             }
 
-            img {
+            .desk-img {
                 background-image: url('https://via.placeholder.com/250');
+                transition: all 0.5s linear;
                 height: 250px;
                 width: 250px;
 
-                @media screen and (min-width: 1024px) {
-                    background-image: url('https://picsum.photos/250');
-                    transition: all 0.5s linear;
+                @media screen and (max-width: 1023px) {
+                    display: none;
                 }
-
-                // &:hover {
-                //     @media screen and (min-width: 1024px) {
-                //         background-image: url('https://via.placeholder.com/250');
-                //     }
-                // }
             } 
 
             h4 {
+                margin-top: 10px;
+
                 @media screen and (max-width: 768px) {
                     margin: 10px 0 20px 0;
                 }
             }
 
             &:hover {
-                img {
-                    @media screen and (min-width: 1024px) {
-                        background-image: url('https://via.placeholder.com/250');
+                .desk-img {
+                    @media screen and (min-width: 1023px) {
+                        background-image: url('https://picsum.photos/250');
                     }
                 }
 
                 .buy {
-                    @media screen and (min-width: 1024px) {
+                    @media screen and (min-width: 1023px) {
                         visibility: visible;
-                        opacity: 1;
+                        opacity: 1; 
                     }
+                }
+            }
+
+            .img-mobile {
+                @media screen and (min-width: 1023px) {
+                    display: none;
                 }
             }
         }
